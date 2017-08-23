@@ -595,7 +595,7 @@ section#homepage {
         height: 500px;
     }*/
     #about-top-greeting h1 {
-        margin:20px 0 20px 140px;
+        margin:20px 0 20px 20px;
         text-align: center;
         opacity: 0.54;
         font-size: 100px;
@@ -610,7 +610,7 @@ section#homepage {
         color:white;
         letter-spacing: 10px;
         margin: 10px 20px 0 10px;
-        vertical-align: center;
+        text-align: right;
     }
     #about-description p{
         color:white;
