@@ -270,7 +270,8 @@ section#homepage {
     font-size: 25px;
     letter-spacing: 2px;
     margin: 0 40px 80px 100px;
-    vertical-align: right;
+    text-align:justify;
+    text-indent:25px;
 }
 
 
@@ -566,11 +567,7 @@ section#homepage {
         margin-left:30px;
         font-size:5em;
     }
-    /*section#homepage {
-        background-color: white;
-        padding: 0;
-        height: 600px;
-    }*/
+    
 }
 
 @media screen and (max-width: 480px) {
@@ -618,7 +615,8 @@ section#homepage {
         font-size: 1.5em;
         letter-spacing: 1px;
         margin: 0 40px 80px 10px;
-        align:right;
+        text-align:justify;
+        text-indent:25px;
     }
     #botlink{
         margin: 30px 0px 30px 0px;
@@ -627,6 +625,9 @@ section#homepage {
 		margin-top:0px;
 	    max-width: 200px;
 	    max-height:100px;
+	}
+	#secondline{
+		text-indent: 20px;
 	}
 
 }
