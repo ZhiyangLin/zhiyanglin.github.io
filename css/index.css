@@ -522,7 +522,7 @@ section#homepage {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    width:200px;
+    width: 80%;
     height:100px;
     resize:none;
 }
@@ -636,22 +636,6 @@ section#homepage {
 	.learningh3 h3{
 		margin:15px;
 	}
-	#content{
-	    padding-left:10px;
-	    padding-top: 10px;
-	    padding-bottom:60px;
-	    margin: 20px 0 0 10px;
-	    display: inline-block;
-	    vertical-align:middle;
-	    border: 1px solid #ccc;
-	    border-radius: 4px;
-	    box-sizing: border-box;
-	    width:150px;
-	    height:100px;
-	    resize:none;
-	}
-
-
 }
 
 html {
