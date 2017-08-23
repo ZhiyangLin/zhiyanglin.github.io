@@ -146,7 +146,7 @@ function displayCenterMsg()
     // All delays are relative to the first animation in the function
     setTimeout(typing, 0, "I am a", ele);
     setTimeout(erase, 1200, ele);
-    setTimeout(typing, 2500, "Software Engineer.", ele);
+    setTimeout(typing, 2500, "Software Engineer", ele);
 }
 
 // Support function to mimic typing effect
