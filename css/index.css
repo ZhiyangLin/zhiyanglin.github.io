@@ -494,7 +494,7 @@ section#homepage {
     padding: 20px;
 }
 #author{
-    width: 50%;
+    width: 60%;
     padding: 12px 20px;
     margin: 8px 0 0 35px;
     display: inline-block;
@@ -503,7 +503,7 @@ section#homepage {
     box-sizing: border-box;
 }
 #email{
-    width: 50%;
+    width: 60%;
     padding: 12px 20px;
     margin: 8px 0 0 32px;
     display: inline-block;
@@ -522,7 +522,7 @@ section#homepage {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    width: 80%;
+    width: 60%;
     height:100px;
     resize:none;
 }
