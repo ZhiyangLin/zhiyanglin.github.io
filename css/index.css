@@ -618,7 +618,7 @@ section#homepage {
         font-size: 1.5em;
         letter-spacing: 1px;
         margin: 0 40px 80px 10px;
-        vertical-align: center;
+        align:right;
     }
     #botlink{
         margin: 30px 0px 30px 0px;
