@@ -627,7 +627,7 @@ section#homepage {
 	    max-height:100px;
 	}
 	#secondline{
-		text-indent: 20px;
+		margin-left:100px;
 	}
 
 }
