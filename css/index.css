@@ -466,7 +466,7 @@ section#homepage {
 }
 /*message*/
 
-#messageForm input[type=submit] {
+#messageid input[type=submit] {
 	font-size: 15px;
 
     width: 200px;
@@ -479,16 +479,16 @@ section#homepage {
     cursor: pointer;
 }
 
-#messageForm input[type=submit]:hover {
+#messageid input[type=submit]:hover {
     background-color: #45a049;
 }
-#messageForm label{
+#messageid label{
     display: inline-block;
     font-size:18px;
     vertical-align:middle;
 }
 
-#messageForm {
+#messageid {
     vertical-align: middle;
     border-radius: 5px;
     padding: 20px;
@@ -527,6 +527,8 @@ section#homepage {
     resize:none;
 }
 #messagelabel{
+	display:inline-block;
+	vertical-align: center;
     padding-top:0;
     margin-top: 0;
 }
