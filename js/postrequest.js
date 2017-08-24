@@ -43,6 +43,7 @@ $( document ).ready(function() {
         resetData();
     }
     function myFunction() {
+        console.log("what");
         var popup = document.getElementById("myPopup");
         popup.classList.toggle("show");
     }
