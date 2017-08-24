@@ -17,11 +17,11 @@ $( document ).ready(function() {
         }
        
         if(!$("#author").val()){
-            alert("Please Enter Your Name!");
+            myFunction();
             return false;
         }
         if(!$("#email").val()){
-            alert("Please Enter Your Email!");
+            myFunction();
             return false;
         }
         $.ajax({
@@ -42,7 +42,10 @@ $( document ).ready(function() {
         // Reset FormData after Posting
         resetData();
     }
-    
+    function myFunction() {
+        var popup = document.getElementById("myPopup");
+        popup.classList.toggle("show");
+    }
     function resetData(){
         $("#author").val("");
         $("#email").val("");
