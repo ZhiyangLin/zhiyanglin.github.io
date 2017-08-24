@@ -46,6 +46,7 @@ $( document ).ready(function() {
         console.log("what");
         var popup = document.getElementById("myPopup");
         popup.classList.toggle("show");
+        setTimeout(function(){ popup.classList.toggle("hidden");}, 2000);
     }
     function resetData(){
         $("#author").val("");

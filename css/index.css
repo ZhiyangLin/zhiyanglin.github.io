@@ -533,7 +533,8 @@ section#homepage {
     margin-top: 0;
 }
 .popup {
-    position: relative;
+    position: absolute;
+    left: 50%;
     display: inline-block;
     cursor: pointer;
     -webkit-user-select: none;
@@ -564,7 +565,6 @@ section#homepage {
     position: absolute;
     top: 100%;
     left: 50%;
-    margin-left: -5px;
     border-width: 5px;
     border-style: solid;
     border-color: #555 transparent transparent transparent;
