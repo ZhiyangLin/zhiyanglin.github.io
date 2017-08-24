@@ -15,8 +15,15 @@ $( document ).ready(function() {
             email :  $("#email").val(),
             content : $("#content").val()
         }
-        // $.ajax({ url: "//formspree.io/you@email.com", method: "POST", data: {message: "hello!"}, dataType: "json" });
-        // DO POST
+       
+        if(!$("#author").val()){
+            alert("Please Enter Your Name!");
+            return false;
+        }
+        if(!$("#email").val()){
+            alert("Please Enter Your Email!");
+            return false;
+        }
         $.ajax({
             type : "POST",
             contentType : "application/json",
